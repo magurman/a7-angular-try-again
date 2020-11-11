@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <ul *ngIf="isDataLoaded; else elseBlock" class="list-group">
+    <li class="list-group-item" *ngFor="let module of modules">
+
+      <a (click)="selectModule(module);"> {{module.title}} </a>
+    </li>
+  </ul>
+  <ng-template #elseBlock>
+    Loading...
+  </ng-template>
+</div>

@@ -1,0 +1,17 @@
+<div *ngIf="isDataAvail; else elseBlock" class="container-fluid">
+  <div class="row">
+    {{course.title}}
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <app-module-list-component></app-module-list-component>
+    </div>
+    <div class="col-9">
+      <app-lesson-tabs-component></app-lesson-tabs-component>
+    </div>
+  </div>
+</div>
+
+<ng-template #elseBlock>
+  Loading...
+</ng-template>

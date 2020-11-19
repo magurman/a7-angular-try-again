@@ -1,0 +1,12 @@
+<h2>{{question.question}}</h2>
+
+<form>
+    <ul>
+        <li *ngFor="let choice of question.choices; index as i">
+            <input type="radio" id=i name="mc">
+            <label for=i>{{choice}}</label><br>
+        </li>
+    </ul>
+    <p>Your Answer: </p>
+    <button (click)="grade()" class="btn btn-success">Grade</button>
+</form>

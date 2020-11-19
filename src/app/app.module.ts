@@ -12,6 +12,13 @@ import ModuleServiceClient from '../services/ModuleServiceClient';
 import LessonServiceClient from '../services/LessonServiceClient';
 import {HttpClientModule} from '@angular/common/http';
 import {routing} from './app.routing';
+import {QuestionsServiceClient} from "../services/question.service.client";
+import {QuizzesServiceClient} from "../services/quiz.service.client";
+import { QuizzesComponent } from './quizzes/quizzes.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { TrueFalseQuestionComponent } from './true-false-question/true-false-question.component';
+import { MultipleChoiceQuestionComponent } from './multiple-choice-question/multiple-choice-question.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -19,18 +26,25 @@ import {routing} from './app.routing';
     CourseTableComponentComponent,
     ModuleListComponentComponent,
     LessonTabsComponentComponent,
-    CourseViewerComponentComponent
+    CourseViewerComponentComponent,
+    QuizzesComponent,
+    QuizComponent,
+    TrueFalseQuestionComponent,
+    MultipleChoiceQuestionComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    routing,
-    HttpClientModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        routing,
+        HttpClientModule,
+        FormsModule
+    ],
   providers: [
     CourseServiceClient,
     ModuleServiceClient,
-    LessonServiceClient
+    LessonServiceClient,
+    QuestionsServiceClient,
+    QuizzesServiceClient
   ],
   bootstrap: [AppComponent]
 })

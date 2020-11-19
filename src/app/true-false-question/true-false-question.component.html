@@ -1,0 +1,18 @@
+<h2>{{question.question}}</h2>
+
+<form id="tf-form">
+    <ul>
+        <li>
+            <input type="radio" id="true" name="tf" value="true" [(ngModel)]="myRadio">
+            <label for="true">TRUE</label>
+        </li>
+        <li>
+            <input type="radio" id="false" name="tf" value="false" [(ngModel)]="myRadio">
+            <label for="false">FALSE</label>
+        </li>
+    </ul>
+</form>
+
+<p>Your Answer: </p>
+<button (click)="grade()" class="btn btn-success">Grade</button>
+

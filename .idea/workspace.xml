@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689e0209-8710-4774-9f04-740f3690bb51" name="Default Changelist" comment="ready for heroku">
-      <change afterPath="$PROJECT_DIR$/src/services/question.service.client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/quiz.service.client.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/course-table-component/course-table-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/course-table-component/course-table-component.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +80,8 @@
       <workItem from="1605120786355" duration="739000" />
       <workItem from="1605540329609" duration="9323000" />
       <workItem from="1605717083089" duration="3276000" />
+      <workItem from="1605822746038" duration="3650000" />
+      <workItem from="1605833441441" duration="300000" />
     </task>
     <servers />
   </component>
